@@ -1,6 +1,6 @@
 # Data Lineage & Replication Management Project on Azure Databricks
 
-2023.08 \
+2023.08 
 
 ## Overview
 Mini-project on data replication/lineage and metadata management using Azure Databricks.
