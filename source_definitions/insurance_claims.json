@@ -1,0 +1,5 @@
+{
+	"table":"dbo.insuarnce_claims",
+	"primary_key":"id"
+	}
+	
