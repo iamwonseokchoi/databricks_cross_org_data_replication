@@ -1,7 +1,6 @@
 # Data Lineage & Replication Management Project on Azure Databricks
 
 2023.08 \
-[Find me on Linkedin](https://www.linkedin.com/in/wonseok-c-387b57226/)
 
 ## Overview
 Mini-project on data replication/lineage and metadata management using Azure Databricks.
