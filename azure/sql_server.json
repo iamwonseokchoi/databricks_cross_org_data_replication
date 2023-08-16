@@ -1,0 +1,18 @@
+"properties": {
+    "administratorLogin": "CloudSAe09a29f9",
+    "version": "12.0",
+    "state": "Ready",
+    "fullyQualifiedDomainName": "databricksdatalineageproject.database.windows.net",
+    "privateEndpointConnections": [],
+    "minimalTlsVersion": "1.2",
+    "publicNetworkAccess": "Enabled",
+    "administrators": {
+        "administratorType": "ActiveDirectory",
+        "principalType": "User",
+        "login": "wonseok_de1_outlook.com#EXT#@wonseokde1outlook.onmicrosoft.com",
+        "sid": "1be43e4a-80f1-4893-9a1e-b86a7d93a664",
+        "tenantId": "f4a0bac8-bdac-4323-8711-45570e8ddf99",
+        "azureADOnlyAuthentication": false
+    },
+    "restrictOutboundNetworkAccess": "Disabled"
+}

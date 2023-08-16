@@ -1,7 +1,5 @@
 # Data Lineage & Replication Management Project on Azure Databricks
 
-2023.08 
-
 ## Overview
 Mini-project on data replication/lineage and metadata management using Azure Databricks.
 
@@ -35,5 +33,17 @@ Utilized a simple `.csv` dataset from Kaggle on Insurance Company Complaints
 ## Caveats
 Using Databricks Secret-scopes to secure information is shown,
 but redaction was mainly used as to make the project less heavy on using Databricks CLI
+
+## To Reproduce 
+Azure account and an Azure Databricks workspace is required with Azure resource overviews sampled under `./azure/*`.
+- Azure Storage Account configurations
+- Azure Logic App HTTP response configurations
+- Azure SQLServer and SQLDB configurations
+    - Databricks mount codes under `./configurations/config.py`
+    - Writing initial starting dataset to SQLServer/DB under `/.configurations/write_to_sqlserver.py`
+
+Databricks CLI configuration and Databricks Secrets provisioning instruction shell scripts provided under `./configurations`.
+
+Provided dockerization files set for ARM64/v8 architecture but should work fine with edits to the dockerfile on others.
 
 **E.O.D**
